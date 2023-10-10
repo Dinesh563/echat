@@ -8,7 +8,7 @@ defmodule EchatWeb.UserSocket do
 
   ## Channels
 
-  channel "room:*", EchatWeb.RoomChannel
+  channel "rooms:*", EchatWeb.RoomChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
